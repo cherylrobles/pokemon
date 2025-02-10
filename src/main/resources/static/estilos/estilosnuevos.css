@@ -1,0 +1,26 @@
+    .text-highlight {
+        background-color: rgba(0, 0, 0, 0.3); /* Blanco con 30% de transparencia */
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: inline; /* Hace que el fondo solo cubra el texto */
+    }
+    
+        .custom-container {
+        margin-right: 1cm; /* Margen derecho de 2 cm */
+    }
+    
+    .texto-justificado {
+    text-align: justify;
+}
+.custom-box {
+    width: 100%;
+    min-height: 300px; /* Aumenta la altura */
+    margin: auto;
+    padding: 50px;
+}
+
+.mi-imagen {
+    width: 250px;   /* Ancho personalizado */
+    height: 300px;  /* Alto personalizado */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}

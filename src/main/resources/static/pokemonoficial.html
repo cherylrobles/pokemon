@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="estilos/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilosnuevos.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                padding-top: 56px; /* Ajusta este valor si el navbar es más alto */
+            }
+        </style>
+    </head>    
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Sitio Oficial Pokemon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="pokemonoficial.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="juegosconsola.html">Juegos de consola</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tipos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="PokemonFuego.html">Pokemon Tipo Fuego</a></li>
+                                <li><a class="dropdown-item" href="PokemonPlanta.html">Pokemon Tipo Planta</a></li>
+                                <li><a class="dropdown-item" href="PokemonElectrico.html">Pokemon Tipo Electrico</a></li>
+                                <li><a class="dropdown-item" href="PokemonFantasma.html">Pokemon Tipo Fantasma</a></li>
+                                <li><a class="dropdown-item" href="PokemonLucha.html">Pokemon Tipo Lucha</a></li>
+                                <li><a class="dropdown-item" href="PokemonAgua.html">Pokemon Tipo Agua</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="https://www.pokemon.com/el/pokedex">Pokedex</a>
+                  
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="carouselExampleDark" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/7.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5 class="text-highlight" style="font-size: 30px;">¡Bienvenidos a la pagina oficial de pokemon!</h5><br>
+                        <p class="text-highlight" > Explora contenido exclusivo, colecciona cartas y entrena para convertirte en un Maestro Pokémon.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5 class="text-highlight" style="font-size: 30px;" >¡Nuevas Pokeparadas!</h5><br>
+                        <p class="text-highlight" >Explora las nuevas pokeparadas que se encuentran en tu zona.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/9.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5 class="text-highlight" style="font-size: 30px;">¡Nuevos Iniciales!</h5><br>
+                        <p class="text-highlight">Descubre quienes son los nuevos pokemones iniciales </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="filter: invert(1);" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="filter: invert(1);" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <h2 class="featurette-heading fw-normal lh-1">Regiones: </h2><br> 
+            <p class="lead">En Pokémon, puedes explorar diversas regiones como Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar y Paldea, cada una con su propia cultura, ecosistemas y especies únicas de Pokémon. Estas regiones son importantes porque expanden la historia del mundo Pokémon, introducen nuevas mecánicas de juego y permiten a los entrenadores vivir aventuras diferentes en cada generación. Además, reflejan inspiración en lugares del mundo real, enriqueciendo la inmersión y la conexión con los jugadores. Explorar cada región es clave para descubrir leyendas, entrenadores icónicos y desafíos únicos.</p>
+        </div>            
+
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <img src="images/kanto.png" class="bd-placeholder-img rounded-circle" width="200" height="200" style="object-fit: cover;">
+                <h2 class="fw-normal">Kanto</h2>
+                <p>Es la primera región del mundo Pokémon, introducida en Pokémon Rojo y Azul. Inspirada en la región real de Kantō en Japón, cuenta con ciudades icónicas como Ciudad Celeste y Pueblo Paleta.</p>
+                <p><a class="btn btn-secondary" href="#">Ver pokemons de la region»</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="images/joto.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200" style="object-fit: cover;">
+                <h2 class="fw-normal">Johto</h2>
+                <p>Es la región de Pokémon Oro y Plata, conectada a Kanto y basada en la región japonesa de Kansai. Se destaca por su cultura tradicional, la Torre Quemada y la Torre Hojalata, donde habitan los legendarios Ho-Oh y Lugia.</p>
+                <p><a class="btn btn-secondary" href="#">Ver pokemons de la region»</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="images/sinnoh.png" class="bd-placeholder-img rounded-circle" width="200" height="200" style="object-fit: cover;">
+                <h2 class="fw-normal">Sinnoh</h2>
+                <p>Está inspirada en la isla de Hokkaido y se caracteriza por su geografía montañosa y su historia mítica. Es el hogar del trío de creación Dialga, Palkia y Giratina, ligados al espacio-tiempo.</p>
+                <p><a class="btn btn-secondary" href="#">Ver pokemons de la region»</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Objetos. <span class="text-body-secondary">¡Equípate con los mejores objetos! </span></h2>
+                <p class="lead">¡Lleva tu aventura Pokémon al siguiente nivel con los increíbles objetos Pokémon! 🌟 Ya sea que necesites Pociones para restaurar la salud de tu equipo, una Banda Focus para resistir los golpes más fuertes o una Piedra Evolutiva para desatar el máximo potencial de tu Pokémon.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/obj.jpg" class="img-fluid mx-auto d-block" width="700" height="700" alt="Objetos Pokémon">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Mega Evolucion. <span class="text-body-secondary">¡Desata el máximo poder!</span></h2>
+                <p class="lead">Con solo equipar una Megapiedra y activar tu Megapulsar, tu Pokémon alcanzará una forma épica, con estadísticas mejoradas, nuevas habilidades y un diseño impresionante.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="images/evol.JPG" class="img-fluid mx-auto d-block" width="700" height="700" alt="Objetos Pokémon">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Crianza Pokemon. <span class="text-body-secondary"> ¡Cría al Pokémon perfecto! </span></h2>
+                <p class="lead"> Podrás obtener el Pokémon con las mejores estadísticas, habilidades ocultas y movimientos exclusivos. Solo deja a tus Pokémon en la guardería, recibe un huevo y entrena desde cero a tu futuro campeón.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/cria.jpg" class="img-fluid mx-auto d-block" width="700" height="700" alt="Objetos Pokémon">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <p>© 2017–2025 Pokemon Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p class="float-end"><a href="#">Volver hasta arriba</a></p>
+    </body>
+</html>
+
